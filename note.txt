@@ -2,10 +2,10 @@ git clone: pull file from github to my computer
 git init: create file git in my computer
 git status: checking status modified file 
 git add . :send all modified file into staging area
-git add [ten-file]: dua file co su thay doi vao vung staging
-git rm --cached [ten-file]: remove file ra khoi vung staging --> working directory
+git add [ten-file]: send a modified file into staging area
+git rm --cached [ten-file]: remove a modified file in staging --> working directory
 git config --global user.email "nhoxac94@yahoo.com" : set email
 git config --global user.name "Le Hoang Loi" : set name
 git commit -m "message": send file in my computer --> local repo 
-git submit: 
-git push
+git log : check name + email + information of modified file before push to github
+
